@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    margin: auto;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 70px;
+    margin: 15px 0 15px 0;
+}
+
+.clockContainer{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.clockCanvas{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#clockBorder{
+    position: inherit;
+    width: 500px;
+    height: 500px;
+    stroke-width: 2;
+
+    transform-origin: 0% 0%;
+    transform: translate(-50%, -50%);
+}
+
+#clockBorder g{
+    transform: translate(50%,50%);
+}
+
+#clockMinute{
+    position: inherit;
+    width: 400px;
+    height: 400px;
+    stroke-width: 5;
+
+    transform-origin: 0% 0%;
+}
+
+#clockHour{
+    position: inherit;
+    width: 300px;
+    height: 300px;
+    stroke-width: 10;
+
+    transform-origin: 0% 0%;
+}
+
+#themeBtn{
+    transform-origin: 0% 0%;
+    transform: translate(-50%,-250%); 
+}
+
+#time{
+    position: inherit;
+    margin: 0;
+    font-size: 70px;
+    white-space: nowrap;
+
+    transform-origin: 0% 0%;
+    transform: translate(-50%,-50%);
+}
+
+#date{
+    position: inherit;
+    margin: 0;
+    font-size: 40px;
+    white-space: nowrap;
+
+    transform-origin: 0% 0%;
+    transform: translate(-50%, 50%);
+}

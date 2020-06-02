@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 2 : Pedro Krieckaert</title>
+    <script src="JS/main.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href ="CSS/main.css">
+    <link id = "pageTheme" rel ="stylesheet" href = "CSS/dayStyle.css">
+</head>
+<body>
+    <section class = "header">
+        <h1>Mars Dome Time</h1>
+        <h2>Earth Time : UTC</h2>
+    </section>
+    <section class = "clockContainer">
+        <div class = "clockCanvas">
+            <svg id = "clockBorder">
+                <g></g>
+            </svg>
+            <svg id = "clockMinute">
+                <line x1 = "200" y1 = "0" x2 = "200" y2 = "200"></line>
+            </svg>
+            <svg id = "clockHour">
+                <line x1 = "150" y1 = "0" x2 = "150" y2 = "150"></line>
+            </svg>
+            <p id = date></p>
+            <p id = time></p>
+            <button id = themeBtn>Dark Theme</button>
+        </div>
+    </section>
+</body>
+</html>

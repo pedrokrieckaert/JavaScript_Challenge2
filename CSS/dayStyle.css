@@ -1,0 +1,16 @@
+body{
+    background-color: #8ae5ff;
+    color: white;
+}
+
+#clockBorder{
+    stroke: #003367;
+}
+
+#clockMinute{
+    stroke: yellow;
+}
+
+#clockHour{
+    stroke: yellow;
+}
